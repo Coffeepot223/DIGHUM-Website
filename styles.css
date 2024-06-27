@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Bloo */
+}
+
+nav {
+    background-color: #8B0000; /* DRed */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #a52a2a; /* Brown */
+    color: white;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background: #ffffff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+section h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #333; /* Dark Gray */
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* White */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+article h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #555; /* Medium Gray */
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666; /* Darker Gray */
+}
+
+a {
+    color: #1E90FF; /* DodgerBlue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* White */
+    border: 1px solid #dddddd; /* Light Gray */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #333; /* Dark Gray */
+}
+
+.card p {
+    font-size: 16px;
+    color: #666; /* Darker Gray */
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #8B0000; /* Dark Red */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #a52a2a; /* Brown */
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #8B0000; /* Dark Red */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
