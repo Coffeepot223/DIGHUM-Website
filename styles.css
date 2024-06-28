@@ -117,6 +117,12 @@ a:hover {
     color: #a52a2a; /* Brown */
     text-decoration: underline;
 }
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 footer {
     text-align: center;
